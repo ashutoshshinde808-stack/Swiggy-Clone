@@ -37,6 +37,7 @@
     height: 30px;   
     background-color: #ff5200;
     cursor: pointer; 
+
 }
 
 .button-2{
@@ -55,7 +56,7 @@
 }
 
 .hero-center {
-  width: 720px;
+  width:720px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,3 +75,58 @@
 .hero-right img {
   width: 124px;
 }
+
+.input-wrapper{
+  display: flex;
+  gap:40px;
+}
+.input-wrapper input{
+  width:320px;
+  height:52px;
+}
+
+.search-item::placeholder .location::placeholder{
+  color:rgb(205, 192, 192);
+}
+
+.location{
+  border:2px solid white;
+  border-radius: 12px;
+  width:300px;
+  height:60px;
+  padding:12px;  
+}
+
+.search-item{
+  border:2px solid white;
+  border-radius:14px;
+  width:460px;
+  height:60px;
+  padding:12px;  
+}
+
+.images{
+  display: flex;
+
+}
+.images img{
+  width:300px;
+  height:300px;
+}
+
+.items{
+  margin:100px;
+}
+
+.items-col-1{
+     display: flex;
+     height:200px;
+     width:200px; 
+}
+
+.items-col-2{
+     display: flex;
+     height:200px;
+     width:200px; 
+}
+
